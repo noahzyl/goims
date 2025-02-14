@@ -40,3 +40,7 @@ cd bin
 ```
 make clean
 ```
+
+## Reference
+
+[8小时转职Golang工程师(如果你想低成本学习Go语言)](https://www.bilibili.com/video/BV1gf4y1r79E/?spm_id_from=333.337.search-card.all.click&vd_source=28b15b3c60f368a0e9ca44b4ffcfdf19)
