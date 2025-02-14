@@ -15,18 +15,8 @@ GOIMS is a simple TCP instant messaging system with the basic framework provided
 
 ## Build
 
-**server**
-
 ```
-cd goims-server
-go build -o bin/server main.go
-```
-
-**client**
-
-```
-cd goims-client
-go build -o bin/client main.go
+make
 ```
 
 ## Run
@@ -34,13 +24,19 @@ go build -o bin/client main.go
 **server (use 127.0.0.1:5090)**
 
 ```
-cd goims-server/bin
+cd bin
 ./server
 ```
 
 **client**
 
 ```
-cd goims-client/bin
+cd bin
 ./client -ip <ip of the server> -port <port of the server> 
+```
+
+## Clean
+
+```
+make clean
 ```

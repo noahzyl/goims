@@ -1,3 +1,2 @@
 .idea/
-goims-server/bin/server
-goims-client/bin/client
+bin/
